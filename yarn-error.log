@@ -1,0 +1,42 @@
+Arguments: 
+  /home/azevedo/.nvm/versions/node/v12.16.2/bin/node /usr/share/yarn/bin/yarn.js add --dev @babel/core@7.3.4 @babel/preset-env@7.3.4 @babel/plugin-proposal-class-propeties@7.3.4
+
+PATH: 
+  /home/azevedo/.deno/bin:/home/azevedo/.fastlane/bin:/home/azevedo/.vscode-server/bin/91899dcef7b8110878ea59626991a18c8a6a1b3e/bin:/home/azevedo/.zinit/polaris/bin:/home/azevedo/.nvm/versions/node/v12.16.2/bin:/home/azevedo/.deno/bin:/home/azevedo/.fastlane/bin:/home/azevedo/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Python27/:/mnt/c/Python27/Scripts:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/ProgramData/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/Users/theaz/Android/emulator:/mnt/c/Users/theaz/Android/tools:/mnt/c/Users/theaz/Android/tool/bin:/mnt/c/Users/theaz/Android/platform-tools:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Java/jdk1.8.0_211/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/theaz/AppData/Local/jdk-11.0.2/bin:/mnt/c/Users/theaz/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/theaz/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/theaz/AppData/Local/Yarn/bin:/mnt/c/Users/theaz/Android/tools:/mnt/c/Users/theaz/Android/tool/bin:/mnt/c/Users/theaz/Android/emulator:/mnt/c/Users/theaz/Android/platform-tools:/mnt/c/Users/theaz/flutter/bin/:/mnt/c/tools/dart-sdk/bin:/mnt/c/Users/theaz/AppData/Roaming/Pub/Cache/bin:/home/azevedo/Android/Sdk/tools:/home/azevedo/Android/Sdk/platform-tools:/usr/local/bin:/home/azevedo/Android/Sdk/tools:/home/azevedo/Android/Sdk/platform-tools:/usr/local/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@babel%2fplugin-proposal-class-propeties: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66987:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:140748:22)
+      at Request.emit (events.js:310:20)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141720:10)
+      at Request.emit (events.js:310:20)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:141642:12)
+      at Object.onceWrapper (events.js:416:28)
+      at IncomingMessage.emit (events.js:322:22)
+      at endReadableNT (_stream_readable.js:1187:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "libjs-withtests",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Pedro Azevedo",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
